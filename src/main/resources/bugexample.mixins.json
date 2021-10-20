@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "xyz.nikitacartes.bugexample.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "PlayerManagerMixin"
+  ],
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "bugexample",
+  "version": "${version}",
+  "name": "bugexample",
+  "authors": [
+    "NikitaCartes"
+  ],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "xyz.nikitacartes.bugexample.BugExample"
+    ]
+  },
+  "mixins": [
+    "bugexample.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
