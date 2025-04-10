@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '0.10-SNAPSHOT'
+    id 'fabric-loom' version '1.10-SNAPSHOT'
 }
 
 repositories {
@@ -19,7 +19,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
     // Translations
-    modImplementation(include("fr.catcore:server-translations-api:${project.server_translations_version}"))
+    include modImplementation("xyz.nucleoid:server-translations-api:${project.server_translations_version}")
 
     // Mods
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
